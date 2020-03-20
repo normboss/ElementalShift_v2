@@ -95,6 +95,9 @@ main {
         @include max-mixin(600px) {
             width: 85%;
         }
+        @include max-mixin(400px) {
+            width: 90%;
+        }
 
         .chakras-header {
             padding-top: 20px;
@@ -135,6 +138,9 @@ main {
         width: 85%;
         @include max-mixin(600px) {
             width: 85%;
+        }
+        @include max-mixin(400px) {
+            width: 95%;
         }
 
         .chakras-header {

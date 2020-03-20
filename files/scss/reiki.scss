@@ -39,6 +39,9 @@ main {
     @include max-mixin(650px) {
         width: 90%;
     }
+    @include max-mixin(400px) {
+        width: 100%;
+    }
     /*height: auto;*/
     display: grid;
     /*grid-template-columns: 50% 50%;*/
@@ -108,6 +111,9 @@ main {
         /*padding: 25px;*/
         @include max-mixin(800px) {
             width: 90%;
+        }
+        @include max-mixin(400px) {
+            width: 95%;
         }
         .block5, .block13 {
             @extend %green-background;

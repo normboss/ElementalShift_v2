@@ -183,33 +183,79 @@ main {
                 width: 90%;
                 padding-left: 5%;
             }
+            @include max-mixin(400px) {
+                width: 100%;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
         }
     }
+
     
     .video-block {
-        width: 60%;
-        height: 435px;
+        width: 70%;
+        min-width: 9px;
+        max-width: 1015px;
+        // height: 435px;
         margin: 0 auto;
         background-color: rgba(149, 122, 43, 0.55);
         border: 2px solid rgba(113, 45, 3, 1);
         margin-bottom: 50px;
         display: flex;
+        @include max-mixin(1055px) {
+            min-width: 500px;
+            flex-direction: column;
+            height: auto;
+            align-items: center;
+            display: block;
+        }
+        @include max-mixin(525px) {
+            min-width: 200px;
+            width: 100%;
+        }
+        @include max-mixin(400px) {
+            padding-left: 0;
+        }
+
         &__video {
-            width: 50%;
             // border: 1px solid black;
             width: 50%;
+            min-width: 380px;
             font-size: 24px;
             padding: 25px;
             margin: 10px;
+            align-self: center;
+
+            @include max-mixin(1050px) {
+                width: 90%;
+                padding: 20px;
+                margin: 0 auto;
+                padding-bottom: 0;
+            }
+            @include max-mixin(450px) {
+                min-width: 20px;
+                width: 87%;
+            }
+                // margin: 0 auto;
+            a img {
+                width: 100%;
+                margin: 0 auto;
+            }
         }
         &__text {
             // border: 1px solid black;
             font-family: Open Sans;
             width: 50%;
+            // min-width: 500px;;
             font-size: 20px;
             font-weight: bold;;
-            padding: 25px;
-            padding-top: 50px;
+            padding: 20px;
+            padding-top: 30px;
+            @include max-mixin(1050px) {
+                width: 90%;
+                padding-top: 0;
+                padding: 15px;
+            }
             padding-left: 10px;
             margin: 10px;
             color: rgba(113, 45, 3, 1);
@@ -218,6 +264,10 @@ main {
                 display: flex;
                 justify-content: flex-end;
             }
+            margin: 0 auto;
+        }
+        @include max-mixin(400px) {
+            padding-left: 0;
         }
     }
 

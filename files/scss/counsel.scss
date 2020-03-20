@@ -61,6 +61,9 @@ main {
         .bold-text {
             font-weight: 600;
         }
+        @include max-mixin(400px) {
+            width: 90%;
+        }
     }
 
     .appointment-block {

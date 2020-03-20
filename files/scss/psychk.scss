@@ -163,7 +163,7 @@ main {
         padding-right: 20px;
         width: 80%;
         @include max-mixin($break-point1) {
-            width: 100%;
+            width: 90%;
             text-align: left;
             padding: 10px;
         }
