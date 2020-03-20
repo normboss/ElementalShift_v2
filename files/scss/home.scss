@@ -185,6 +185,41 @@ main {
             }
         }
     }
+    
+    .video-block {
+        width: 60%;
+        height: 435px;
+        margin: 0 auto;
+        background-color: rgba(149, 122, 43, 0.55);
+        border: 2px solid rgba(113, 45, 3, 1);
+        margin-bottom: 50px;
+        display: flex;
+        &__video {
+            width: 50%;
+            // border: 1px solid black;
+            width: 50%;
+            font-size: 24px;
+            padding: 25px;
+            margin: 10px;
+        }
+        &__text {
+            // border: 1px solid black;
+            font-family: Open Sans;
+            width: 50%;
+            font-size: 20px;
+            font-weight: bold;;
+            padding: 25px;
+            padding-top: 50px;
+            padding-left: 10px;
+            margin: 10px;
+            color: rgba(113, 45, 3, 1);
+            text-align: left;
+            .kirsten {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
 
     .appointment-block {
         width: 50%;

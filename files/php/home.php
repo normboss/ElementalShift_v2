@@ -2,7 +2,7 @@
 if (!session_id())
     session_start();
 
-    // require __DIR__ .'../include/root.php';
+// require __DIR__ .'../include/root.php';
 
 // $_SESSION['root'] = "/ElementalShiftX1/public_html";
 // $_SESSION['root'] = "/test/ElementalShiftX1";
@@ -46,7 +46,7 @@ and open the template in the editor.
     <br><br>
     <header id="header"></header>
     <?php
-        require "../includes/header.php";
+    require "../includes/header.php";
     ?>
     <br><br>
     <main>
@@ -103,6 +103,27 @@ and open the template in the editor.
             </div>
         </div>
         <br>
+
+        <div class="video-block">
+            <div class="video-block__video">
+                <a href="https://www.youtube.com/watch?v=RSF8z50nz70&feature=emb_title">
+                    <img src="../images/covid19.png">
+                </a>                    
+            </div>
+            <div class="video-block__text">
+                As we go through this stressful time of social distancing during the corona virus outbreak, 
+                I share this video with you from Donna Eden and David Feinstein, PhD. 
+                The pair offer simple yet powerful tools to keep your body’s immune 
+                system strong and to better cope with stress. 
+                <br>
+                Feel free to contact me if you have any questions. 
+                <br>
+                <div class="kirsten">
+                Kirsten Jettinghoff
+                </div>
+            </div>
+        </div>
+
 
         <?php require '../includes/issues.html' ?>
 
