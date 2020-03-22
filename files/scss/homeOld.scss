@@ -26,6 +26,8 @@ main {
     text-align: center;
 
     .header-block {
+
+
         .text {
             /*border: 3px solid red;*/
             width: 100%;
@@ -131,30 +133,22 @@ main {
 
     /* ********************************************************************************** */
     .lower-content {
-        // border: 3px solid black;
         margin: 0 auto;
         height: auto;
         display: flex;
         justify-content: space-between;
-        width: 70%;
+        width: 80%;
 
         @include max-mixin(1000px) {
             flex-direction: column;
-            // display: block;
-            min-width: 500px;
-        }
-        @include max-mixin(600px) {
-            max-width: 300px;
         }
 
         .kirsten-image {
-            // border: 2px solid red;
-            // width: 179px;
-            // height: 200px;
+            width: 179px;
+            height: 200px;
             @include max-mixin(1000px) {
                 margin: 0 auto;
                 padding-bottom: 15px;
-                padding-left: 0;
             }
         }
 
@@ -172,7 +166,6 @@ main {
             }
         }
         .paragraph9 {
-            border: 2px solid red;
             padding-right: 10px;
             /*Paragraph 9 	Acumen Pro Regular 24 pt, 36 px. # 83653b*/
             /*@extend %font-paragraph9;*/
@@ -184,199 +177,25 @@ main {
             }
 
             #moretext {
-                color: #957a2b;
+                color: #957A2B;
             }
             @include max-mixin(500px) {
                 width: 90%;
-                min-width: 250px;
-                // padding-left: 5%;
-                // padding-right: 5%;
+                padding-left: 5%;
             }
             @include max-mixin(400px) {
-                // width: 950%;
-                // padding-left: 2%;
-                // padding-right: 2%;
-            }
-        }
-        @include max-mixin(700px) {
-            // width: 90%;
-        }
-    }
-
-    /* ********************************************************************************** */
-    .lower-content1 {
-        // border: 3px solid black;
-        margin: 0 auto;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-        width: 70%;
-        max-width: 950px;
-
-        @include max-mixin(1000px) {
-            flex-direction: column;
-            min-width: 500px;
-        }
-        @include max-mixin(600px) {
-            width: 90%;
-            min-width: 300px;
-        }
-        @include max-mixin(400px) {
-            width: 95%;
-            min-width: 250px;
-        }
-
-        .kirsten-image {
-            // border: 2px solid red;
-            // width: 179px;
-            // height: 200px;
-            @include max-mixin(1000px) {
-                margin: 0 auto;
-                padding-bottom: 15px;
-                padding-left: 0;
-            }
-        }
-
-        .paragraph9 {
-            padding-left: 20px;
-            padding-top: 5px;
-            text-align: left;
-            // border: 2px solid red;
-            padding-right: 10px;
-            /*Paragraph 9 	Acumen Pro Regular 24 pt, 36 px. # 83653b*/
-            /*@extend %font-paragraph9;*/
-            @extend %font-paragraph1;
-            .kirsten-signature {
-                /*border: 2px solid red;*/
-                text-align: right;
-                padding-right: 40px;
-            }
-
-            #moretext {
-                color: #957a2b;
-            }
-            @include max-mixin(500px) {
-                width: 90%;
-                min-width: 250px;
-            }
-            @include max-mixin(400px) {
-                padding: 0;
-                margin: 0 auto;
+                width: 100%;
+                padding-left: 2%;
+                padding-right: 2%;
             }
         }
     }
 
-    /* ********************************************************************************** */
-    .kirsten-join1 {
-        // border: 3px solid black;
-        margin: 0 auto;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-        width: 70%;
-        max-width: 950px;
-        text-align: left;;
-        padding-left: 0;
-
-        @include max-mixin(1000px) {
-            flex-direction: column;
-            // display: block;
-            min-width: 500px;
-            // padding-left: 20px;
-            padding-top: 10px;
-        }
-        @include max-mixin(600px) {
-            width: 90%;
-            min-width: 300px;
-        }
-        @include max-mixin(400px) {
-            width: 95%;
-            min-width: 250px;
-        }
-
-        .paragraph3 {
-            padding-top: 5px;
-            // text-align: left;
-            // border: 2px solid red;
-            padding-right: 10px;
-            /*Paragraph 9 	Acumen Pro Regular 24 pt, 36 px. # 83653b*/
-            /*@extend %font-paragraph9;*/
-            @extend %font-paragraph1;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            color: #703015;
-            #moretext {
-                color: #957a2b;
-            }
-            @include max-mixin(1000px) {
-                padding-left: 20px;
-            }
-                @include max-mixin(500px) {
-                width: 90%;
-                min-width: 250px;
-            }
-            @include max-mixin(400px) {
-                padding: 0;
-                margin: 0 auto;
-            }
-        }
-    }
-
-    .kirsten-join {
-        // border: 2px solid red;
-        width: 70%;
-        min-width: 500px;
-        margin: 0 auto;
-        @include max-mixin(600px) {
-            width: 90%;
-            min-width: 300px;
-        }
-        @include max-mixin(400px) {
-            width: 95%;
-            min-width: 250px;
-        }
-
-        .paragraph3 {
-            text-align: left;
-            /*Paragraph 3     Acumen Pro Wide Light 24 pt, 36 px # Holistic Red #703015*/
-            // padding-left: 20px;
-            padding-top: 5px;
-            text-align: left;
-
-            // @extend %font-paragraph3;
-            @extend %font-paragraph1;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            color: #703015;
-            // letter-spacing: 2.1px;
-
-            @include max-mixin(1000px) {
-                padding-bottom: 15px;
-                padding-left: 20px;
-            }
-        }
-        @include max-mixin(600px) {
-            width: 90%;
-            min-width: 300px;
-        }
-        @include max-mixin(500px) {
-            // width: 90%;
-            // min-width: 250px;
-            // padding: 0;
-        }
-        @include max-mixin(400px) {
-            width: 95%;
-            min-width: 250px;
-        }
-    }
-
+    
     .video-block {
         width: 70%;
         min-width: 9px;
         max-width: 1015px;
-        max-width: 900px;
         // height: 435px;
         margin: 0 auto;
         background-color: rgba(149, 122, 43, 0.55);
@@ -403,8 +222,7 @@ main {
             width: 50%;
             min-width: 380px;
             font-size: 24px;
-            // padding: 25px;
-            // padding-right: 10px;
+            padding: 25px;
             margin: 10px;
             align-self: center;
 
@@ -418,7 +236,7 @@ main {
                 min-width: 20px;
                 width: 87%;
             }
-            // margin: 0 auto;
+                // margin: 0 auto;
             a img {
                 width: 100%;
                 margin: 0 auto;
@@ -430,15 +248,15 @@ main {
             width: 50%;
             // min-width: 500px;;
             font-size: 20px;
-            font-weight: normal;
-            padding: 20px 0px 20px 10px;
+            font-weight: bold;;
+            padding: 20px;
             padding-top: 30px;
             @include max-mixin(1050px) {
                 width: 90%;
                 padding-top: 0;
                 padding: 15px;
             }
-            // padding-left: 10px;
+            padding-left: 10px;
             margin: 10px;
             color: rgba(113, 45, 3, 1);
             text-align: left;

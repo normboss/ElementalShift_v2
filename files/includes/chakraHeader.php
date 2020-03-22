@@ -7,9 +7,7 @@ and open the template in the editor.
 <html>
   <head>
     <!-- <link href="./css/chakraHeader.css" media="screen" rel="stylesheet" type="text/css"> -->
-    <?php 
-    echo "<link href=".$_SESSION['root'].'/files/css/chakraHeader.css'." media='screen' rel='stylesheet' type='text/css'>";
-    ?>
+    <link href="../css/chakraHeader.css" media='screen' rel='stylesheet' type='text/css'>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -43,7 +43,7 @@ and open the template in the editor.
     </div>
     
     <div class="box image">
-      <?php echo "<img src='" . $_SESSION['root'] . "/files/images/sun_wood.png'>" ?>
+      <img src="../images/sun_wood.png">
     </div>
 
     <div class="box info-container">

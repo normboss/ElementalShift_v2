@@ -25,7 +25,7 @@ and open the template in the editor.
         <!-- <link href="./css/about.css" media="screen" rel="stylesheet" type="text/css"> -->
         <link href="../css/about.css" media='screen' rel='stylesheet' type='text/css'>
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <link rel="shortcut icon" type="image/x-icon" "<?php echo $_SESSION['root'].'/files/images/favicon.ico' ?>>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
         <script>
             //            $(function () {
             //                $("#header").load("header.html");
@@ -89,7 +89,7 @@ and open the template in the editor.
 
             <br><br>
 
-            <?php require '../includes/issues.html'; ?>
+            <?php require '../includes/issues1.html'; ?>
             <br><br><br>
 
             <div class="appointment-block">

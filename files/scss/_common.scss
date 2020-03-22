@@ -290,7 +290,7 @@ font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 20px;
     color: #703015;
-    letter-spacing: 2.5px;
+    letter-spacing: 2.3px;
     span {
         text-align: right;
     }
@@ -578,3 +578,6 @@ font-family: 'Open Sans', sans-serif;
 }
 @import "header";
 @import "appointmentGrid";
+@import "issues1";
+@import "appointmentGrid";
+@import "chakraHeader1";

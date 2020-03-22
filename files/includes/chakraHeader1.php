@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-  <head>
-    <!-- <link href="./css/chakraHeader.css" media="screen" rel="stylesheet" type="text/css"> -->
-    <?php 
-    echo "<link href=".$_SESSION['root'].'/files/css/chakraHeader1.css'." media='screen' rel='stylesheet' type='text/css'>";
-    ?>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <div>
       <div class="container">
 
         <div class="big-box">
@@ -28,5 +10,3 @@ and open the template in the editor.
           </div> -->
         </div>
       </div>
-  </body>
-</html>

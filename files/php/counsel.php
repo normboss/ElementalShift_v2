@@ -1,6 +1,4 @@
 <?php
-require __DIR__ . '/../includes/root.php';
-
 if (!session_id())
     session_start();
 $_SESSION['pagename'] = "counsel";
@@ -21,7 +19,7 @@ and open the template in the editor.
     <link href="../css/counsel.css" media='screen' rel='stylesheet' type='text/css'>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <!-- <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"> -->
-    <link rel="shortcut icon" type="image/x-icon" "<?php echo $_SESSION['root'] . '/files/images/favicon.ico' ?>>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
         <script>
             //      $(function () {
             //        $(" #header").load("header.html"); // $("#footer").load("footer.html"); // }); </script> </head> <body>

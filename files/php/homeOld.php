@@ -20,9 +20,9 @@ and open the template in the editor.
             Family Conflict,Grief and Loss,Life Coaching,Mood Disorders,Relationship Issues,
             Self Esteem,Spirituality,Stress,Substance Abuse,Trauma,PTSD">
 
-    <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/homeOld.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="./files/images/favicon.ico">
     <script>
         //      $(function () {
         //        $("#header").load("header.html");
@@ -70,52 +70,55 @@ and open the template in the editor.
         <div class="spacer20"></div>
         <br>
 
-        <div class="lower-content1">
-            <div class="kirsten-image">
+        <div class="lower-content">
+            <div class="kirsten-image column">
                 <img src="../images/kirsten3.jpg">
             </div>
-
-            <div class="paragraph9">
+            <div class="paragraph3 column">
+                Join Kirsten Jettinghoff, Licensed Mental Health Counselor on your personal adventure of discovery and healing.
+            </div>
+            <div class="paragraph9 column">
+                <!--<span id="more" onclick="readMore()">...[more]</span>-->
                 <div id="moretext">
                     “I enjoy helping adults gain greater
                     satisfaction in relationships, including
                     the most important one; the relationship
                     with oneself.
+                    <br><br>
                     Grow beyond lifelong issues, replace
                     feeling overwhelmed with feeling peace.
                     Let me help you learn how to celebrate
                     every step taken on life’s journey.”
+                    <br><br>
+                    <!-- <div class="kirsten-signature">Kirsten Jettinghoff, LMHC</div> -->
                 </div>
+                <!--<span id="less" onclick="readMore()">[less]</span>-->
             </div>
         </div>
-
-        <div class="kirsten-join1">
-            <div class="paragraph3">
-                Join Kirsten Jettinghoff, Licensed Mental Health Counselor on your personal adventure of discovery and healing.
-            </div>
-        </div>
-        <br>
         <br>
 
         <div class="video-block">
             <div class="video-block__video">
                 <a href="https://www.youtube.com/watch?v=RSF8z50nz70&feature=emb_title">
                     <img src="../images/covid19.png">
-                </a>
+                </a>                    
             </div>
             <div class="video-block__text">
-                "As we go through this stressful time of social distancing during the corona virus outbreak,
-                I share this video with you from Donna Eden and David Feinstein, PhD.
-                The pair offer simple yet powerful tools to keep your body’s immune
-                system strong and to better cope with stress.
+                As we go through this stressful time of social distancing during the corona virus outbreak, 
+                I share this video with you from Donna Eden and David Feinstein, PhD. 
+                The pair offer simple yet powerful tools to keep your body’s immune 
+                system strong and to better cope with stress. 
                 <br>
-                Feel free to contact me if you have any questions."
+                Feel free to contact me if you have any questions. 
                 <br>
+                <div class="kirsten">
+                Kirsten Jettinghoff
+                </div>
             </div>
         </div>
 
 
-        <?php require '../includes/issues1.html' ?>
+        <?php require '../includes/issues.html' ?>
 
         <br><br>
         <div class="appointment-block">

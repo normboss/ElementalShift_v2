@@ -28,10 +28,7 @@ and open the template in the editor.
     </head>
     <body>
 
-        <!--<header id="header"></header>-->
-        <?php require '../includes/header.php' ;
-        // echo $_SESSION['root'].'/files/css/psychk.css';
-        ?>
+        <?php require '../includes/header.php' ; ?>
 
         <main>
 
