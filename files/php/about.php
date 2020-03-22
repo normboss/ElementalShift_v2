@@ -74,7 +74,6 @@ and open the template in the editor.
             <br><br>
             <div class="bottom-section box">
                 <div class="header2">Additional Qualifications</div>
-                <br>
                 <ul class="paragraph2">
                     <li>Traditional Usui Reiki Master&nbsp;since&nbsp;2003<a href="https://www.reiki.org"> www.reiki.org</a></li>
                     <li>Karuna&nbsp;Reiki&nbsp;&reg;&nbsp;Master <a href="https://www.reikiclasses.com">www.reikiclasses.com</a> </li>

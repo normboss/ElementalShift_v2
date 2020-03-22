@@ -22,15 +22,13 @@ and open the template in the editor.
         grid-column: 1 / span 2;
     }
     // margin-left: -10%;
-
 }
-
 
 .issues {
     width: 80%;
-    max-width: 800px;;
+    max-width: 800px;
     @include max-mixin(1000px) {
-        width: 70%;
+        // width: 70%;
     }
     @include max-mixin(850px) {
         // width: 90%;
@@ -67,27 +65,34 @@ and open the template in the editor.
         justify-items: left;
         // padding: 0;
         padding-left: 50px;
-        width: 90%;
+        width: 85%;
+    }
+    @include max-mixin(400px) {
+        width: 95%;
+        // padding-left: 0;
     }
 
     // .issue-group {
-        .issue {
-            // border: 2px solid red;
-            width: 100%;
-            text-align: left;
-            @extend %font-p4;
-            @include max-mixin(500px) {
-                width: 70%;
-            }
-            @include max-mixin(350px) {
-                grid-column: 1 / span 1;
-                text-align: left;
-                width: 100%;
-                padding-left: 25%;
-            }
+    .issue {
+        // border: 2px solid red;
+        width: 100%;
+        text-align: left;
+        @extend %font-p4;
+        @include max-mixin(500px) {
+            width: 70%;
         }
+        @include max-mixin(400px) {
+            padding-left: 0;
+        }
+        @include max-mixin(400px) {
+            grid-column: 1 / span 1;
+            text-align: left;
+            width: 100%;
+            margin-left: 0;
+            // padding-left: 25%;
+        }
+    }
     // }
-
 
     /*    .stuff {
         display: flex;
@@ -102,4 +107,3 @@ and open the template in the editor.
         width: 70%;
     }
 }
-
