@@ -12,12 +12,15 @@ and open the template in the editor.
 <html>
 
 <head>
-    <title>Elemental Shift</title>
+<?php
+    require '../includes/globalSiteTag.html';
+    require '../includes/keywords.php';
+    ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Addiction, trauma, recovery">
     <link href="../css/counsel.css" media='screen' rel='stylesheet' type='text/css'>
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <!-- <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"> -->
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
         <script>

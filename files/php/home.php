@@ -12,7 +12,11 @@ and open the template in the editor.
 <html>
 
 <head>
-    <title>Elemental Shift</title>
+<?php
+    require '../includes/globalSiteTag.html';
+    require '../includes/keywords.php';
+    ?>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Holistic , healing, Alcohol Abuse,
