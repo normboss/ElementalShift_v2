@@ -48,7 +48,9 @@ and open the template in the editor.
                   <span>Your Chakras</span>
                 </div> 
             </div> -->
-    <?php require "../includes/chakraHeader1.php" ?>
+    <?php 
+    require "../includes/chakraHeader1.php" 
+    ?>
 
     <br>
     <main>
@@ -197,6 +199,22 @@ and open the template in the editor.
         //                }
         //            }
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+<!-- add your own script -->
+<script>
+    // var text = document.getElements("");
+    var text = document.getElementById("image-heading");
+
+    if (text !== null) {
+        gsap.from(text, 3, {
+            opacity: 0,
+            scale: ".01",
+            ease: "power1.inOut",
+            delay: 1
+        });
+    }
+</script>
 
 </body>
 

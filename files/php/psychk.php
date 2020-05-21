@@ -46,6 +46,7 @@ and open the template in the editor.
                   </div>-->
         <div class="header-image">
             <!--<img src="./images/psych_header2.jpg">-->
+            <h1 id="psychk">PSYCH-K</h1>
         </div>
         <br>
         <div class="decisions-and-struggle">
@@ -133,6 +134,21 @@ and open the template in the editor.
 
     <!--<footer id="footer"></footer>-->
     <?php require '../php/footer.php' ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+<!-- add your own script -->
+<script>
+    var text = document.getElementById("psychk");
+
+    if (text !== null) {
+        gsap.from(text, 3, {
+            opacity: 0,
+            scale: ".01",
+            ease: "power1.inOut",
+            delay: 1
+        });
+    }
+</script>
 
 </body>
 

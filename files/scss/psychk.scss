@@ -67,6 +67,24 @@ main {
             height: auto;
         }
         /*padding-bottom: 25px;*/
+
+        #psychk {
+            position: absolute;
+            font-size: 70px;
+            @include max-mixin(370px) {
+                font-size: 55px;
+            }
+            @extend %font-header5;
+            font-weight: 400;
+            @extend %section-header;
+            opacity: 0.7;
+            top: 25%;
+            left: 50%;
+            transform: translateX(-48%);
+            letter-spacing: 10px;
+            // text-shadow: 3px 3px #888;
+        }
+    
     }
 
     .decisions-and-struggle {

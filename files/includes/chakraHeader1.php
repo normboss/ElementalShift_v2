@@ -8,5 +8,5 @@
             <div class="large">The Chakras </div>
             <div class="small">Clearing & Balancing</div>
           </div> -->
-        </div>
+          <h1 id="image-heading">The Chakras </h1>
       </div>

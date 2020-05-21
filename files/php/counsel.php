@@ -38,6 +38,7 @@ and open the template in the editor.
 
     <main>
         <div class="header-image">
+            <h1 id="counseling">Counseling</h1>
         </div>
         <br><br><br>
         <div class="text-block">
@@ -92,6 +93,24 @@ and open the template in the editor.
     </main>
 
     <?php require '../php/footer.php' ?>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+    <!-- add your own script -->
+    <script>
+        // var text = document.getElements("");
+        var text = document.getElementById("counseling");
+
+        if (text !== null) {
+            gsap.from(text, 3, {
+                opacity: 0,
+                scale: ".01",
+                ease: "power1.inOut",
+                delay: 1
+            });
+        }
+    </script>
+
 
 </body>
 
