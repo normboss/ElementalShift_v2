@@ -12,10 +12,13 @@ and open the template in the editor.
 <html>
 
 <head>
-<?php
+    <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';
     ?>
+    <title>Elemental Shift | Counseling by a Licensed Mental Health Counselor</title>
+    <meta name="description" content="Therapy for treatment of addiction, stress, pain, loneliness and relationship problems. Specializing in Recovery and co-dependency. ">
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Addiction, trauma, recovery">
@@ -23,9 +26,13 @@ and open the template in the editor.
     <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <!-- <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"> -->
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-        <script>
-            //      $(function () {
-            //        $(" #header").load("header.html"); // $("#footer").load("footer.html"); // }); </script> </head> <body>
+    <script>
+        //      $(function () {
+        //        $(" #header").load("header.html"); // $("#footer").load("footer.html"); // }); 
+    </script>
+</head>
+
+<body>
 
     <?php require '../includes/header.php'; ?>
 
@@ -86,6 +93,6 @@ and open the template in the editor.
 
     <?php require '../php/footer.php' ?>
 
-    </body>
+</body>
 
 </html>

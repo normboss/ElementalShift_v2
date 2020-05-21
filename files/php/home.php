@@ -12,10 +12,15 @@ and open the template in the editor.
 <html>
 
 <head>
-<?php
+    <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';
     ?>
+    <title>Elemental Shift | Holistic counseling by Kirsten Jettinghoff, LMHC</title>
+    <meta name="description" content="Psychotherapy with mind-body focus: healing support for life issues and tools for deep and lasting healing and health, including NET, EFT and Energy Medicine.">
+
+
+    <title></title>
+    <meta name="description" content="">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
