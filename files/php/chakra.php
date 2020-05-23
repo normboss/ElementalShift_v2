@@ -24,14 +24,7 @@ and open the template in the editor.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/chakra.css" media='screen' rel='stylesheet' type='text/css'>
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-    <script>
-        //      $(function () {
-        //        $("#header").load("header.html");
-        //        $("#footer").load("footer.html");
-        //      });
-    </script>
 
 </head>
 
@@ -199,22 +192,33 @@ and open the template in the editor.
         //                }
         //            }
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script> -->
 
 <!-- add your own script -->
-<script>
-    // var text = document.getElements("");
+<!-- <script>
     var text = document.getElementById("image-heading");
 
     if (text !== null) {
-        gsap.from(text, 3, {
-            opacity: 0,
-            scale: ".01",
-            ease: "power1.inOut",
-            delay: 1
-        });
+        if (text !== null) {
+                gsap
+                .from(text, 4, {
+                    opacity: 0,
+                    scale: ".01",
+                    ease: "power1.inOut",
+                    delay: 0
+                });
+                gsap.to(text, 4, {
+                    opacity: 0,
+                    // scale: ".01",
+                    ease: "power1.inOut",
+                    delay: 5
+                })
+                ;
+            }
     }
-</script>
+</script> -->
 
 </body>
 

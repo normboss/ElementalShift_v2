@@ -23,13 +23,7 @@ and open the template in the editor.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Addiction, trauma, recovery">
     <link href="../css/counsel.css" media='screen' rel='stylesheet' type='text/css'>
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"> -->
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-    <script>
-        //      $(function () {
-        //        $(" #header").load("header.html"); // $("#footer").load("footer.html"); // }); 
-    </script>
 </head>
 
 <body>
@@ -38,7 +32,7 @@ and open the template in the editor.
 
     <main>
         <div class="header-image">
-            <h1 id="counseling">Counseling</h1>
+            <!-- <h1 id="counseling">Counseling</h1> -->
         </div>
         <br><br><br>
         <div class="text-block">
@@ -94,23 +88,28 @@ and open the template in the editor.
 
     <?php require '../php/footer.php' ?>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
-
-    <!-- add your own script -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="js/jquery/jquery-1.10.1.min.js"></script>
     <script>
-        // var text = document.getElements("");
         var text = document.getElementById("counseling");
 
         if (text !== null) {
-            gsap.from(text, 3, {
+            gsap.from(text, 4, {
                 opacity: 0,
                 scale: ".01",
-                ease: "power1.inOut",
-                delay: 1
+                ease: "power1.out",
+                delay: 0
+            });
+
+            gsap.to(text, 4, {
+                opacity: 0,
+                // scale: ".01",
+                ease: "power1.in",
+                delay: 5
             });
         }
     </script>
-
+ -->
 
 </body>
 

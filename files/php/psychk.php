@@ -24,14 +24,7 @@ and open the template in the editor.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Health, prosperity, self-esteem, weight, holistic">
     <link href="../css/psychk.css" media='screen' rel='stylesheet' type='text/css'>
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-    <script>
-        //      $(function () {
-        //        $("#header").load("header.html");
-        //        $("#footer").load("footer.html");
-        //      });
-    </script>
 
 </head>
 
@@ -46,7 +39,9 @@ and open the template in the editor.
                   </div>-->
         <div class="header-image">
             <!--<img src="./images/psych_header2.jpg">-->
-            <h1 id="psychk">PSYCH-K</h1>
+            <!-- <h1 id="psychk">PSYCH-K</h1> -->
+
+
         </div>
         <br>
         <div class="decisions-and-struggle">
@@ -131,24 +126,32 @@ and open the template in the editor.
     </main>
     <br><br><br>
 
-
-    <!--<footer id="footer"></footer>-->
     <?php require '../php/footer.php' ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 
-<!-- add your own script -->
-<script>
-    var text = document.getElementById("psychk");
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 
-    if (text !== null) {
-        gsap.from(text, 3, {
-            opacity: 0,
-            scale: ".01",
-            ease: "power1.inOut",
-            delay: 1
-        });
-    }
-</script>
+    <!-- add your own script -->
+    <!-- <script>
+            var text = document.getElementById("psychk");
+
+            if (text !== null) {
+                gsap
+                .from(text, 4, {
+                    opacity: 0,
+                    scale: ".01",
+                    ease: "power1.inOut",
+                    delay: 0
+                });
+                gsap.to(text, 4, {
+                    opacity: 0,
+                    // scale: ".01",
+                    ease: "power1.inOut",
+                    delay: 5
+                })
+                ;
+            }
+    </script> -->
 
 </body>
 
